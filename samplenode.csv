@@ -1,0 +1,111 @@
+"end_line","file_path","id","kind","metadata","name","source","start_line","token_count","zoom_level"
+"24","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","d7447cba-058e-5881-9e9b-b838dcbf1b52","Module","{'inara': {'weightage': 0.5, 'diagnostics': [{'severity': 'Error', 'rule_id': 'rustc', 'message': 'Expected \':\'', 'location': {'start_line': 4, 'start_col': 25, 'end_line': 5, 'end_col': 1}}, {'severity': 'Error', 'rule_id': 'rustc', 'message': 'Expected \':\'', 'location': {'start_line': 7, 'start_col': 14, 'end_line': 8, 'end_col': 1}}, {'severity': 'Error', 'rule_id': 'rustc', 'message': 'Expected \':\'', 'location': {'start_line': 9, 'start_col': 5, 'end_line': 10, 'end_col': 1}}, {'severity': 'Error', 'rule_id': 'rustc', 'message': 'Expected \':\'', 'location': {'start_line': 12, 'start_col': 16, 'end_line': 13, 'end_col': 1}}, {'severity': 'Error', 'rule_id': 'rustc', 'message': 'Expected \':\'', 'location': {'start_line': 14, 'start_col': 14, 'end_line': 14, 'end_col': 15}}, {'severity': 'Error', 'rule_id': 'rustc', 'message': 'Expected indented block', 'location': {'start_line': 24, 'start_col': 1, 'end_line': 24, 'end_col': 6}}, {'severity': 'Error', 'rule_id': 'reportOperatorIssue', 'message': 'Operator \'+\' not supported for types \'Literal['Hello ']\' and \'Literal[123]\'', 'location': {'start_line': 21, 'start_col': 7, 'end_line': 21, 'end_col': 22}}, {'severity': 'Error', 'rule_id': 'syntax-error', 'message': 'Syntax error near: total = total', 'location': {'start_line': 5, 'start_col': 4, 'end_line': 5, 'end_col': 17}}, {'severity': 'Error', 'rule_id': 'syntax-error', 'message': 'Syntax error near: 50', 'location': {'start_line': 7, 'start_col': 11, 'end_line': 7, 'end_col': 13}}, {'severity': 'Error', 'rule_id': 'syntax-error', 'message': 'Syntax error near: while count', 'location': {'start_line': 12, 'start_col': 0, 'end_line': 12, 'end_col': 11}}, {'severity': 'Error', 'rule_id': 'syntax-error', 'message': 'Syntax error near: count = count', 'location': {'start_line': 13, 'start_col': 4, 'end_line': 13, 'end_col': 17}}, {'severity': 'Error', 'rule_id': 'syntax-error', 'message': 'Syntax error near: if count = 5', 'location': {'start_line': 14, 'start_col': 4, 'end_line': 14, 'end_col': 16}}]}, 'tenant_id': '00000000-0000-0000-0000-000000000000', 'total_diagnostics': '12'}","","count = 10
+total = 0
+
+for i in range(1, count)
+    total = total + i
+
+if total > 50
+    print(""Total is greater than 50"")
+else
+    print(""Total is less than or equal to 50"")
+
+while count > 0
+    count = count - 1
+    if count = 5:
+        print(""Count is five"")
+
+avg = total / 0
+print(""Average is"", avg)
+
+name = 123
+print(""Hello "" + name)
+
+if total < 0:
+print(""Negative total"")","1","94","Repository"
+"1","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","a5119e4a-6695-5d47-a4ae-33d68127b139","Statement","{'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","count = 10","1","2","Statements"
+"1","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","4de61517-373a-59cb-bb29-bbc006a2525e","Assignment","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","count","count = 10","1","2","Statements"
+"1","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","ba1050ac-a041-5227-9e99-1abe416dc58f","Identifier","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","count","count","1","1","Statements"
+"1","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","3588ff45-1588-5725-a9c3-05409f170573","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","10","1","0","Statements"
+"2","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","82e7d642-293b-52c8-ad0e-477d20ee40e4","Statement","{'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","total = 0","2","2","Statements"
+"2","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","be0555dc-8451-518d-b9fa-7d0fdfc012b2","Assignment","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","total","total = 0","2","2","Statements"
+"2","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","bdc94663-0839-5aaf-89d5-22f682430c63","Identifier","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","total","total","2","1","Statements"
+"2","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","14238a9c-aa32-525e-b7da-79ed161b6c3f","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","0","2","0","Statements"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","ed068a59-2627-5f45-8514-cf004ec625e9","For","{'diagnostic_count': '3', 'node_diagnostics': [{'location': {'end_col': 1, 'end_line': 10, 'start_col': 5, 'start_line': 9}, 'message': 'Expected \':\'', 'rule_id': 'rustc', 'severity': 'Error'}, {'location': {'end_col': 15, 'end_line': 14, 'start_col': 14, 'start_line': 14}, 'message': 'Expected \':\'', 'rule_id': 'rustc', 'severity': 'Error'}, {'location': {'end_col': 16, 'end_line': 14, 'start_col': 4, 'start_line': 14}, 'message': 'Syntax error near: if count = 5', 'rule_id': 'syntax-error', 'severity': 'Error'}], 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","for i in range(1, count)
+    total = total + i
+
+if total > 50
+    print(""Total is greater than 50"")
+else
+    print(""Total is less than or equal to 50"")
+
+while count > 0
+    count = count - 1
+    if count = 5:
+        print(""Count is five"")","4","59","Body"
+"4","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","5087ac5f-60d2-5c68-9917-0549112f7b18","Identifier","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","i","i","4","0","Statements"
+"5","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","6470555d-b0ee-55be-baf3-25d32e08ec8b","BinaryOp","{'diagnostic_count': '2', 'node_diagnostics': [{'location': {'end_col': 1, 'end_line': 5, 'start_col': 25, 'start_line': 4}, 'message': 'Expected \':\'', 'rule_id': 'rustc', 'severity': 'Error'}, {'location': {'end_col': 17, 'end_line': 5, 'start_col': 4, 'start_line': 5}, 'message': 'Syntax error near: total = total', 'rule_id': 'syntax-error', 'severity': 'Error'}], 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","range(1, count)
+    total = total + i","4","9","Statements"
+"4","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","f7ca2864-8277-5737-99f5-2c3382bfdcc3","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","range(1, count)","4","3","Statements"
+"4","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","2daefa6b-d407-5c9c-bea4-1349e424c139","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","range","range","4","1","Statements"
+"4","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","bad2b05c-0b19-5204-9299-57c98d696fa1","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","1","4","0","Statements"
+"4","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","54dddddc-6e94-53c2-a899-5db8eec5c2ba","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","count","count","4","1","Statements"
+"5","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","9e4f0771-1538-5463-9f31-5ffaa5431823","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","i","i","5","0","Statements"
+"8","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","ac2ad8a4-fd5d-519a-bd05-e2acfa5ac335","BinaryOp","{'diagnostic_count': '2', 'node_diagnostics': [{'location': {'end_col': 1, 'end_line': 8, 'start_col': 14, 'start_line': 7}, 'message': 'Expected \':\'', 'rule_id': 'rustc', 'severity': 'Error'}, {'location': {'end_col': 13, 'end_line': 7, 'start_col': 11, 'start_line': 7}, 'message': 'Syntax error near: 50', 'rule_id': 'syntax-error', 'severity': 'Error'}], 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","total > 50
+    print(""Total is greater than 50"")","7","12","Statements"
+"7","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","595c442d-db4a-53b3-9816-43970b9cb455","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","total","total","7","1","Statements"
+"8","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","654ad88d-6798-582c-b159-276d8a047f82","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Total is greater than 50"")","8","8","Statements"
+"8","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","832f1487-cce7-581d-8b4d-546b2649dfe4","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","print","print","8","1","Statements"
+"8","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","fa491ee4-eabb-55e6-a880-25df7347f39e","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Total is greater than 50""","8","6","Statements"
+"8","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","12d77392-4591-5cce-887c-7be23ea8127f","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","Total is greater than 50","8","6","Statements"
+"13","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","820dc8d7-9324-5df1-a3fb-226b926eecb2","BinaryOp","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Total is less than or equal to 50"")
+
+while count > 0
+    count = count - 1","10","20","Statements"
+"10","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","3858463d-c0e5-5f99-9cbf-f5ededd6b5c1","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Total is less than or equal to 50"")","10","10","Statements"
+"10","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","f217c0a9-b4bc-52b1-ae5e-eb0576c7bfc0","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","print","print","10","1","Statements"
+"10","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","5912c877-7cbe-5101-9ce3-8380fc436253","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Total is less than or equal to 50""","10","8","Statements"
+"10","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","da56956f-42ed-539b-9e6a-d6c515b9f42b","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","Total is less than or equal to 50","10","8","Statements"
+"13","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","bfce0de7-a437-556a-b739-dd93bc5ea47a","BinaryOp","{'diagnostic_count': '3', 'node_diagnostics': [{'location': {'end_col': 1, 'end_line': 13, 'start_col': 16, 'start_line': 12}, 'message': 'Expected \':\'', 'rule_id': 'rustc', 'severity': 'Error'}, {'location': {'end_col': 11, 'end_line': 12, 'start_col': 0, 'start_line': 12}, 'message': 'Syntax error near: while count', 'rule_id': 'syntax-error', 'severity': 'Error'}, {'location': {'end_col': 17, 'end_line': 13, 'start_col': 4, 'start_line': 13}, 'message': 'Syntax error near: count = count', 'rule_id': 'syntax-error', 'severity': 'Error'}], 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","0
+    count = count - 1","12","5","Statements"
+"12","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","f0587b8f-57d5-5c6a-b624-66502756717e","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","0","12","0","Statements"
+"13","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","361eb947-9d8e-5e49-ba2d-b9e263823241","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","1","13","0","Statements"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","3c03134e-cc8a-5d3a-9bf1-690340b753c9","Block","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Count is five"")","15","5","Body"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","2218900f-1415-582e-928f-c10893e8ae01","Statement","{'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Count is five"")","15","5","Statements"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","8dfe08f4-5ae6-5d09-ae01-2ca6a20b908a","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Count is five"")","15","5","Statements"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","659e98af-ec47-5b74-b85e-4c74fd324c86","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","print","print","15","1","Statements"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","80b40601-3cf8-5228-979f-0c3ddd253dbb","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Count is five""","15","3","Statements"
+"15","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","fcb8077c-7e4f-58ee-aeb9-3ebae221b70d","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","Count is five","15","3","Statements"
+"17","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","e985bde6-940c-5930-a33f-3d9c84927085","Statement","{'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","avg = total / 0","17","3","Statements"
+"17","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","d4b03aeb-dd66-534d-9aca-0e74913665eb","Assignment","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","avg","avg = total / 0","17","3","Statements"
+"17","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","890f5d52-e712-5ae4-9b1d-ae9311057a3e","Identifier","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","avg","avg","17","0","Statements"
+"17","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","2a8aaad4-2de0-51dc-9fbd-e79bb7e62261","BinaryOp","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","total / 0","17","2","Statements"
+"17","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","76c3d8cf-8ac8-5164-9792-58a0faa84a7d","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","total","total","17","1","Statements"
+"17","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","f314dc47-e3df-52f3-a089-da46bcd6a95e","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","0","17","0","Statements"
+"18","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","6faf1a9f-7436-582c-bb4a-684f067e6877","Statement","{'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Average is"", avg)","18","6","Statements"
+"18","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","4ad69dfd-a1dc-50c8-ba65-9e0f0093cb01","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Average is"", avg)","18","6","Statements"
+"18","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","7c159c03-60d5-5bd8-a7be-3279133c4823","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","print","print","18","1","Statements"
+"18","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","8c9dfc70-cf34-511d-9ba8-58a5bdecb00a","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Average is""","18","3","Statements"
+"18","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","64e4a3f9-2b61-5069-b268-16154dff1adb","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","Average is","18","2","Statements"
+"18","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","5e336570-066c-5adc-a535-d61e53844f34","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","avg","avg","18","0","Statements"
+"20","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","6fdf0d58-8723-5587-a0b0-8dcc4258da43","Statement","{'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","name = 123","20","2","Statements"
+"20","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","f3ec7fd8-760a-5396-824f-6a293cdb953c","Assignment","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","name","name = 123","20","2","Statements"
+"20","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","733d0e1e-34d0-5120-bb3a-768d68a9da14","Identifier","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","name","name","20","1","Statements"
+"20","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","1c5525d9-9ed2-5c79-a838-1f915dc6b64c","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","123","20","0","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","5aeeb8a8-af85-51e6-b78b-9f0ebaad1596","Statement","{'diagnostic_count': '1', 'node_diagnostics': [{'location': {'end_col': 22, 'end_line': 21, 'start_col': 7, 'start_line': 21}, 'message': 'Operator \'+\' not supported for types \'Literal['Hello ']\' and \'Literal[123]\'', 'rule_id': 'reportOperatorIssue', 'severity': 'Error'}], 'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Hello "" + name)","21","5","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","4bbf79c5-3e16-5c68-8d01-0a7eda30b477","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Hello "" + name)","21","5","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","0009eeff-955d-5dcd-a74d-49108688f62b","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","print","print","21","1","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","139905c8-a998-5d01-b7c0-dc319b52405e","BinaryOp","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Hello "" + name","21","3","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","c289096b-a80b-54b0-b19f-254aaff21af7","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Hello ""","21","2","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","c564be53-73e1-5ed4-9607-88dc0aa03bec","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","Hello ","21","1","Statements"
+"21","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","5463b8c7-459f-5676-9476-908ffd25d66d","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","name","name","21","1","Statements"
+"23","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","c15f3f63-e4d7-549e-b235-15cc2edfccf0","If","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","if total < 0:","23","3","Body"
+"23","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","da484283-5f69-5ca1-a5fe-0d9498fd591d","Condition","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","total < 0","23","2","Statements"
+"23","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","d95a08b0-2b85-5637-b2ad-5b4bfc0bebf7","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","total","total","23","1","Statements"
+"23","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","b26406f5-7bb4-5d26-90b7-acc1459a3cb1","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","0","23","0","Statements"
+"23","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","ae471323-4700-5c23-a43d-638bb5abcb7c","Block","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","","23","0","Body"
+"24","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","fec44c8c-828a-5518-9929-0ce239496bdc","Statement","{'diagnostic_count': '1', 'node_diagnostics': [{'location': {'end_col': 6, 'end_line': 24, 'start_col': 1, 'start_line': 24}, 'message': 'Expected indented block', 'rule_id': 'rustc', 'severity': 'Error'}], 'statement_type': 'ExpressionStatement', 'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Negative total"")","24","5","Statements"
+"24","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","5ccf92ac-53d3-53f8-9883-288bd6efe3c9","Call","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","print(""Negative total"")","24","5","Statements"
+"24","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","0b9c1fe1-2a8c-5039-991f-f0d78d2d8831","Reference","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","print","print","24","1","Statements"
+"24","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","47e25004-bf43-5b0a-ab02-699a2c8558d5","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","""Negative total""","24","4","Statements"
+"24","/Users/apple/Project-Nuvai/NuvaiEngine/test1.py","a2a4380d-3945-5ed9-8249-961323cd9bc3","Literal","{'tenant_id': '00000000-0000-0000-0000-000000000000'}","","Negative total","24","3","Statements"
